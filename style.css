@@ -12,13 +12,13 @@ body{
 
 .logo{
     background-image: url(./img/logo-nintendo.png);
-    width: 125px;
+    width: 115px;
     height: 40px;
     background-repeat: no-repeat;
     background-size:contain;   
     display: block;
     position: relative;
-    left: 249px;
+    left: 222px;
     top: 10px;
     }
 
@@ -27,7 +27,7 @@ body{
 .control-case{
     background-color: rgb(169, 161, 161);
     display: block;
-    width: 398px;
+    width: 360px;
     height: 200px;
     margin-top: 250px;
     margin-left: auto;
@@ -38,7 +38,7 @@ body{
 
 .control-interno{
     background-color: black;
-    width: 380px;
+    width: 330px;
     height: 150px;
     display: block;
     position: absolute;
@@ -82,7 +82,7 @@ body{
     margin-left:auto;
     margin-bottom: 10px;
     margin-top:-60px;
-    width: 130px;
+    width: 125px;
     height: 22px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -95,7 +95,7 @@ body{
     margin-left:auto;
     margin-bottom: 10px;
     margin-top:0px;
-    width: 130px;
+    width: 125px;
     height: 22px;
     border-radius: 7px;
     display: block;
@@ -108,7 +108,7 @@ body{
     margin-left:auto;
     margin-bottom: 10px;
     margin-top:0px;
-    width: 130px;
+    width: 125px;
     height: 22px;
     border-bottom-right-radius: 0 px;
     border-bottom-left-radius: 0 px;
@@ -128,7 +128,7 @@ body{
     padding: 2px;
     margin-left: 4px;
     position: relative;
-    left: 265px;
+    left: 235px;
     top: -100px;
 
 }
@@ -192,7 +192,7 @@ body{
     margin-left: 20px;
     position: relative;
     left: 44px;
-    bottom: 31px;
+    bottom: 33px;
 }
 
 .RESET-btn{
