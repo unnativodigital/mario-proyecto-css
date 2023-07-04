@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="control-case">
+        <div class="control-interno">
+            <div class="logo">
+            </div>
+            <div class="cruz">
+                <div class="cruz2"></div>
+            </div>
+            <div class="control-square"></div>
+            <div class="control-square1"></div>
+            <div class="control-square1"></div>
+            <div class="control-square1">
+                <div class="Start">START</div>
+                <button class="start-btn"></button>
+                <div class="RESET">RESET</div>
+                <button class="RESET-btn"></button>
+            </div>
+            <div class="control-square2"></div>
+            <div class="pat">
+                <button class="red"></button>
+            </div>
+            <div class="pat">
+                <button class="red"></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var startButton = document.querySelector(".start-btn");
+            var resetButton = document.querySelector(".RESET-btn");
+            var audio = new Audio("./img/audio/musicademario.mp3");
+
+            startButton.addEventListener("click", function() {
+                audio.play();
+            });
+
+            resetButton.addEventListener("click", function() {
+                audio.pause();
+                audio.currentTime = 0;
+            });
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+  var redButtons = document.querySelectorAll(".red");
+  var audio = new Audio("./img/audio/coin.mp3");
+
+  // Iterar sobre cada botón con la clase ".red"
+  redButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      audio.play();
+    });
+  });
+});
+    </script>
+
+</body>
+</html>
