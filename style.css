@@ -26,7 +26,8 @@ body{
 
 .control-case{
     background-color: rgb(169, 161, 161);
-    display: block;
+    display: flex;
+    flex-direction: row;
     width: 360px;
     height: 200px;
     margin-top: 250px;
